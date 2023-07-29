@@ -1,3 +1,4 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
 
@@ -9,7 +10,7 @@ int main() {
     while(i<=n){
         int j=1;
         while(j<=n){
-            cout<< j;
+            cout<< n-j+1;
             j=j+1;
         }
         cout<< endl;
@@ -18,3 +19,14 @@ int main() {
 
     return 0;
 }
+
+//output:
+/*  321
+    321
+    321
+
+
+
+
+
+*/
